@@ -1,0 +1,21 @@
+.CityItem {
+    clear: both;
+    position: relative;
+    margin-top: 5%;
+}
+
+.CityItem img {
+    width: 95%;
+    height: 100%;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.CityItem span {
+    position: absolute;
+    display: inline-block;
+    left: 10%;
+    bottom: 8%;
+    color: #fff;
+    font-size: 1rem;
+}

@@ -1,0 +1,17 @@
+.HotelType {
+    margin-top: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.HotelTypeList {
+    display: flex;
+    margin-top: 2.5%;
+}
+
+@media screen and (max-width : 768px) {
+    .HotelType {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}

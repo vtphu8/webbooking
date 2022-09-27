@@ -1,0 +1,24 @@
+.Hotel_List_Component {
+    margin-top: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Hotel_List {
+    display: flex;
+    max-width: 100%;
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .Hotel_List_Component {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width : 567px) {
+    .Hotel_List_Component {
+        margin-bottom: 20%;
+    }
+}

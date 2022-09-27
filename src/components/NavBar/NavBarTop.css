@@ -1,0 +1,21 @@
+.NavBarTop {
+    background-color: #003580;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 1.5%;
+}
+
+.NavBarTop_left {
+    color: white;
+    position: absolute;
+    left: 0;
+    padding-left: 15%;
+    text-align: justify center;
+}
+
+.NavBarTop_right {
+    position: absolute;
+    right: 0;
+    text-align: justify center;
+    padding-right: 15%;
+}

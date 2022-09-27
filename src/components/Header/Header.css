@@ -1,0 +1,32 @@
+.Header {
+    background-color: #003580;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+}
+
+.Header h1 {
+    margin-bottom: 3%;
+}
+
+.Header p {
+    margin-bottom: 3%;
+}
+
+.Header>button {
+    margin-bottom: 8%;
+    padding: 1%;
+}
+
+.Header>button {
+    Background-color: #0071c2;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Header>button {
+        margin-bottom: 15%;
+    }
+}

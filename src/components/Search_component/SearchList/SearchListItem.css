@@ -1,0 +1,101 @@
+.SearchListItem {
+    height: 15rem;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: -1.5%;
+    padding: 1%;
+    border: solid gray 0.05px;
+    border-radius: 1rem;
+}
+
+.SearchListItem img {
+    width: 100%;
+    height: 100%
+}
+
+.Item_col {
+    width: 25%;
+}
+
+.Item_content_col {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 50%;
+}
+
+.Item_content_col * {
+    margin-bottom: 2%;
+}
+
+.Item_content_name {
+    color: #2ba1e0;
+}
+
+.Item_content_tag {
+    width: fit-content;
+    background-color: #008009;
+    color: white;
+    padding: 1%;
+    border-radius: 1rem;
+    ;
+}
+
+.Item_content_description {
+    font-weight: bold;
+}
+
+.Item_content_cancel {
+    color: #19b95f;
+}
+
+.Item_content_cancel>p:first-child {
+    font-weight: bold;
+}
+
+.Item_rate {
+    position: relative;
+}
+
+.Item_rate_top {
+    position: relative;
+}
+
+.Item_rate_top_left {
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.Item_rate_top_right {
+    position: absolute;
+    font-weight: bold;
+    background-color: #003580;
+    color: white;
+    padding: 2%;
+    right: 0;
+}
+
+.Item_rate_bot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.Item_rate_bot_price {
+    font-size: 1.5rem;
+}
+
+.Item_rate_bot_tax {
+    opacity: 50%;
+}
+
+.Item_rate_bot button {
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #0071c2;
+    font: 1.5em sans-serif;
+    color: white;
+}

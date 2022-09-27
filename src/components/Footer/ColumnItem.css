@@ -1,0 +1,9 @@
+.col_item {
+    line-height: 2rem;
+}
+
+.col_item a {
+    text-decoration: none;
+    color: #3f7ac8;
+    font-size: 0.8rem;
+}

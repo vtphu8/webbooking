@@ -1,0 +1,12 @@
+.CityList {
+    list-style-type: none;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media screen and (max-width : 768px) {
+    .CityList {
+        margin-top: 5%;
+    }
+}

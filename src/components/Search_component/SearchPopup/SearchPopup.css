@@ -1,0 +1,54 @@
+.SearchPopup {
+    display: block;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    background-color: #febb02;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    padding: 1%;
+}
+
+.SearchPopup h1 {
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+
+.SearchPopup>div>input {
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 3%;
+}
+
+.Search_option {
+    padding: 2%;
+    list-style-type: none;
+}
+
+.Search_option_item {
+    margin-bottom: 4%;
+}
+
+.Search_option_row {
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.Search_option_row_left {
+    position: absolute;
+    left: 2rem;
+}
+
+.Search_option_row_right {
+    position: absolute;
+    right: 3rem;
+}
+
+.SearchPopup button {
+    width: 100%;
+    border: none;
+    background-color: #0071c2;
+    font: 1.5em sans-serif;
+    color: white;
+}

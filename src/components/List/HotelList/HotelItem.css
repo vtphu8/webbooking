@@ -1,0 +1,46 @@
+.Hotel_List_Item {
+    margin-top: 2.5%;
+    max-width: 24%;
+    padding: 0.5%;
+}
+
+.Hotel_List_Item img {
+    width: 100%;
+    height: 70%;
+}
+
+.Hotel_List_Item a {
+    font-weight: bold;
+}
+
+.Hotel_rate {
+    background-color: #003580;
+    color: white;
+}
+
+@media screen and (max-width : 768px) {
+    .Hotel_List {
+        display: unset;
+    }
+
+    .Hotel_List_Item {
+        margin-top: 2.5%;
+        max-width: unset;
+        width: 49%;
+        padding: 0.5%;
+        display: inline-block;
+    }
+
+    .Hotel_List_Item img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width : 567px) {
+    .Hotel_List_Item {
+        width: 100%;
+        height: 40%;
+        display: inline-block;
+    }
+}

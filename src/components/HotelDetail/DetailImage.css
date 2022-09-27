@@ -1,0 +1,18 @@
+.DetailImage {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.DetailImage img {
+    width: calc(98.5%/3);
+    margin-right: 0.5%;
+}
+
+@media screen and (max-width:768px) {
+
+    /* responsive khi màn hình nhỏ */
+    .DetailImage img {
+        width: calc(98.5%/2);
+        margin-right: 0.75%;
+    }
+}
